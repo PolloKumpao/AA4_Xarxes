@@ -1,0 +1,7 @@
+﻿  Source.cpp
+e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\cluedo\xarxescluedo\platilla_3projects (1)\gameserver\source.cpp(118): warning C4551: la llamada a la función no tiene lista de argumentos
+e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\cluedo\xarxescluedo\platilla_3projects (1)\gameserver\source.cpp(219): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\cluedo\xarxescluedo\platilla_3projects (1)\gameserver\source.cpp(245): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\cluedo\xarxescluedo\platilla_3projects (1)\gameserver\source.cpp(311): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos
+e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\cluedo\xarxescluedo\platilla_3projects (1)\gameserver\source.cpp(574): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  GameServer.vcxproj -> E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Xarxes tercero\Cluedo\XarxesCluedo\Platilla_3Projects (1)\x64\Debug\GameServer.exe
