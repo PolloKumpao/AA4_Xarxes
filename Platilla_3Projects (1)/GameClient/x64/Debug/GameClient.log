@@ -1,40 +1,40 @@
 ﻿  Source.cpp
-e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\cluedo\xarxescluedo\platilla_3projects (1)\gameclient\graphics.h(31): warning C4244: '=': conversión de 'int' a 'T'; posible pérdida de datos
+e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\aa4 xarxes\aa4_xarxes\platilla_3projects (1)\gameclient\graphics.h(31): warning C4244: '=': conversión de 'int' a 'T'; posible pérdida de datos
           with
           [
               T=float
           ]
-e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\cluedo\xarxescluedo\platilla_3projects (1)\gameclient\graphics.h(32): warning C4244: '=': conversión de 'int' a 'T'; posible pérdida de datos
+e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\aa4 xarxes\aa4_xarxes\platilla_3projects (1)\gameclient\graphics.h(32): warning C4244: '=': conversión de 'int' a 'T'; posible pérdida de datos
           with
           [
               T=float
           ]
-e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\cluedo\xarxescluedo\platilla_3projects (1)\gameclient\graphics.h(33): warning C4244: '=': conversión de 'int' a 'T'; posible pérdida de datos
+e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\aa4 xarxes\aa4_xarxes\platilla_3projects (1)\gameclient\graphics.h(33): warning C4244: '=': conversión de 'int' a 'T'; posible pérdida de datos
           with
           [
               T=float
           ]
-e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\cluedo\xarxescluedo\platilla_3projects (1)\gameclient\graphics.h(34): warning C4244: '=': conversión de 'int' a 'T'; posible pérdida de datos
+e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\aa4 xarxes\aa4_xarxes\platilla_3projects (1)\gameclient\graphics.h(34): warning C4244: '=': conversión de 'int' a 'T'; posible pérdida de datos
           with
           [
               T=float
           ]
-e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\cluedo\xarxescluedo\platilla_3projects (1)\gameclient\graphics.h(42): warning C4244: 'inicializando': conversión de 'T' a 'int'; posible pérdida de datos
+e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\aa4 xarxes\aa4_xarxes\platilla_3projects (1)\gameclient\graphics.h(42): warning C4244: 'inicializando': conversión de 'T' a 'int'; posible pérdida de datos
           with
           [
               T=float
           ]
-e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\cluedo\xarxescluedo\platilla_3projects (1)\gameclient\graphics.h(42): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
-e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\cluedo\xarxescluedo\platilla_3projects (1)\gameclient\graphics.h(44): warning C4244: 'inicializando': conversión de 'T' a 'int'; posible pérdida de datos
+e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\aa4 xarxes\aa4_xarxes\platilla_3projects (1)\gameclient\graphics.h(42): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\aa4 xarxes\aa4_xarxes\platilla_3projects (1)\gameclient\graphics.h(44): warning C4244: 'inicializando': conversión de 'T' a 'int'; posible pérdida de datos
           with
           [
               T=float
           ]
-e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\cluedo\xarxescluedo\platilla_3projects (1)\gameclient\graphics.h(44): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
-e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\cluedo\xarxescluedo\platilla_3projects (1)\gameclient\graphics.h(46): warning C4244: 'argumento': conversión de 'int' a 'T'; posible pérdida de datos
+e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\aa4 xarxes\aa4_xarxes\platilla_3projects (1)\gameclient\graphics.h(44): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\aa4 xarxes\aa4_xarxes\platilla_3projects (1)\gameclient\graphics.h(46): warning C4244: 'argumento': conversión de 'int' a 'T'; posible pérdida de datos
           with
           [
               T=float
           ]
-e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\cluedo\xarxescluedo\platilla_3projects (1)\gameclient\source.cpp(27): warning C4244: 'argumento': conversión de 'float' a 'sf::Int32'; posible pérdida de datos
-  GameClient.vcxproj -> E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Xarxes tercero\Cluedo\XarxesCluedo\Platilla_3Projects (1)\x64\Debug\GameClient.exe
+e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\aa4 xarxes\aa4_xarxes\platilla_3projects (1)\gameclient\source.cpp(26): warning C4390: ';': se encontró una instrucción controlada vacía; ¿es esa la intención?
+  GameClient.vcxproj -> E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Xarxes tercero\AA4 Xarxes\AA4_Xarxes\Platilla_3Projects (1)\x64\Debug\GameClient.exe
