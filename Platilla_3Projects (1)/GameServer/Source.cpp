@@ -4,13 +4,17 @@
 #include <SFML\Network.hpp>
 #include <PlayerInfo.h>
 #include <map>
-#include<thread>
-sf::Packet Hello;
+#include<SFML\System.hpp>
+
+enum  comandos { HELLO, WELCOME, CHALLENGE, CHALLENGE_R };
+sf::Packet comand;
 std::list<sf::UdpSocket*> jugadores;
 sf::IpAddress ipAddr;
 unsigned short port;
 int nCliente = 0;
-int id;
+int intComando;
+int challenge;
+int challenge_R;
 std::map<int, sf::IpAddress> mapClientes; // Adress-> ClientProxy
 
 
@@ -19,7 +23,7 @@ void conect()
 {
 	std::cout << "Inicio Thread" << std::endl;
 
-	if (socket.receive(Hello, ipAddr, port) != sf::Socket::Done)
+	if (socket.receive(comand, ipAddr, port) != sf::Socket::Done)
 	{
 		std::cout << "No hay conexion" << std::endl;
 
@@ -27,11 +31,50 @@ void conect()
 	else
 	{
 		
-		Hello >> id;
-		std::cout << "conex" << id << std::endl;
-		mapClientes.insert(std::pair<int, sf::IpAddress>(nCliente, ipAddr));
-		nCliente++;
+		comand >> intComando;
+		comandos comando = static_cast<comandos>(intComando);
+		switch (comando)
+		{
+		case HELLO:
+			comand.clear();
+			comando = CHALLENGE;
+			intComando = static_cast<int>(comando);
+			comand << intComando;
+			challenge = rand() % 10;
+			comand << challenge;
+			socket.send(comand, ipAddr, port);
+			comand.clear();
+
+			break;
+		case WELCOME:
+
+
+			break;
+		case CHALLENGE:
+
+
+			break;
+		case CHALLENGE_R:
+			comand >> challenge_R;
+			if (challenge == challenge_R)
+			{
+				std::cout << "Challenge correcto" << std::endl;
+				comand.clear();
+				mapClientes.insert(std::pair<int, sf::IpAddress>(nCliente, ipAddr));
+				nCliente++;
+
+			}
+
+
+			break;
+		default:
+			break;
+		}
+		
+		
+		
 	}
+
 
 
 
@@ -125,11 +168,13 @@ void conect()
 //}
 
 
-
+sf::Thread conectThread(conect);
 int main()
 {
-	std::thread conectThread = std::thread(conect);
-	conectThread.detach();
+	bool run = true;
+
+	
+	
 	
 	//Vinculamos este socket al puerto 50000
 	//Los que envíen datos deben conocer la ip y el puerto.
@@ -147,12 +192,12 @@ int main()
 	
 	
 	
-	while (true)
+	while (run)
 	{
 		
-		conectThread;
-		//conectThread.detach();
-		//std::cout << "vuelta" << std::endl;
+		conectThread.launch();
+
+		
 		
 	}
 	

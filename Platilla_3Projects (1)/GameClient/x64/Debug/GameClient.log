@@ -36,5 +36,6 @@ e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\aa4 xarxes\aa4_x
           [
               T=float
           ]
-e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\aa4 xarxes\aa4_xarxes\platilla_3projects (1)\gameclient\source.cpp(26): warning C4390: ';': se encontró una instrucción controlada vacía; ¿es esa la intención?
+e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\aa4 xarxes\aa4_xarxes\platilla_3projects (1)\gameclient\source.cpp(61): warning C4552: "!=": el resultado de la expresión no se usa
+e:\edufs\documents\onedrive\escritorio\enti_bien\xarxes tercero\aa4 xarxes\aa4_xarxes\platilla_3projects (1)\gameclient\source.cpp(29): warning C4390: ';': se encontró una instrucción controlada vacía; ¿es esa la intención?
   GameClient.vcxproj -> E:\edufs\Documents\OneDrive\Escritorio\Enti_Bien\Xarxes tercero\AA4 Xarxes\AA4_Xarxes\Platilla_3Projects (1)\x64\Debug\GameClient.exe
